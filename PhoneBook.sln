@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.GUI", "PhoneBook.GUI\PhoneBook.GUI.csproj", "{0C99B394-17EE-4E09-87EC-9BCB41033CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Core", "PhoneBook.Core\PhoneBook.Core.csproj", "{11BC7BD0-A4B9-4944-87AE-18996B8607AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C99B394-17EE-4E09-87EC-9BCB41033CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C99B394-17EE-4E09-87EC-9BCB41033CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C99B394-17EE-4E09-87EC-9BCB41033CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C99B394-17EE-4E09-87EC-9BCB41033CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BC7BD0-A4B9-4944-87AE-18996B8607AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BC7BD0-A4B9-4944-87AE-18996B8607AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BC7BD0-A4B9-4944-87AE-18996B8607AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BC7BD0-A4B9-4944-87AE-18996B8607AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

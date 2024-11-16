@@ -1,0 +1,30 @@
+﻿<Window x:Class="PhoneBook.GUI.Windows.UpdateAbonentWindow.UpdateAbonentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        Title="{StaticResource Title}"
+        
+        Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label x:Name="LabelPhone"
+                   Target="InputPhone"
+                   Content="Телефон"/>
+            <TextBox x:Name="InputPhone"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label x:Name="LabelName"
+                   Target="InputName"
+                   Content="Имя"/>
+            <TextBox x:Name="InputName"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="ButtonSave"
+                    Content="Сохранить"
+                    Click="ButtonSave_OnClick"/>
+            <Button x:Name="ButtonClear"
+                    Content="Очистить"
+                    Click="ButtonClear_OnClick"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
